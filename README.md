@@ -1,2 +1,12 @@
 # SkyGuard-AI-Based-Military-Aircraft-Detection
 AI-based military aircraft detection system using YOLOv8 for real-time object detection from images, videos, and webcam. Includes dataset preprocessing, model training, evaluation, and GUI interface for live monitoring.
+# Overview
+SkyGuard AI is a deep learning–based system designed to detect and classify military aircraft from images, videos, and live webcam streams. The project uses the YOLOv8 object detection model to provide fast and accurate real-time detection of multiple aircraft types.
+The main objective of this project is to automate the process of aerial image monitoring, which is traditionally time-consuming and prone to human error. By leveraging transfer learning and a pretrained YOLOv8 model, the system is trained on a military aircraft dataset obtained from Kaggle. The dataset annotations were processed and converted into YOLO format, followed by model training, evaluation, and performance optimization.
+The trained model is capable of identifying aircraft locations using bounding boxes and predicting their classes with good accuracy. In addition, a user-friendly graphical interface (GUI) was developed to allow real-time detection through webcam, image upload, and video input.
+This project demonstrates the practical application of computer vision and deep learning in defense, surveillance, and security-related scenarios. It also highlights the complete machine learning pipeline, including data preprocessing, model training, performance evaluation, and deployment.
+
+# Problem Statement 
+Monitoring aerial images manually to identify military aircraft is time-consuming, inefficient, and prone to human error, especially when large volumes of data must be analyzed. There is a need for an automated and reliable system that can accurately detect and classify aircraft in real time. This project aims to develop an AI-based solution using deep learning to improve detection accuracy and support surveillance and defense applications.
+
+
