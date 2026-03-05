@@ -9,4 +9,27 @@ This project demonstrates the practical application of computer vision and deep 
 # Problem Statement 
 Monitoring aerial images manually to identify military aircraft is time-consuming, inefficient, and prone to human error, especially when large volumes of data must be analyzed. There is a need for an automated and reliable system that can accurately detect and classify aircraft in real time. This project aims to develop an AI-based solution using deep learning to improve detection accuracy and support surveillance and defense applications.
 
+#Technical Details
+1. Language: Python
+2. Framework: PyTorch
+3. Model: YOLOv8 (Ultralytics)
+4. Dataset: Kaggle Military Aircraft Detection Dataset
+5. Annotation Format: CSV converted to YOLO format
+6. Image Processing: OpenCV
+8. GUI: Tkinter
+9. Training Method: Transfer Learning with pretrained YOLOv8
+8. Evaluation Metrics: Precision, Recall, mAP
+9. Detection Modes: Image, Video, and Live Webcam
+
+#Challenges Faced
+Dataset annotation conversion from CSV to YOLO format
+Handling train, validation, and test splits
+Managing GPU memory limitations during training
+Optimizing hyperparameters to improve model accuracy
+Fixing dataset path and file structure issues
+
+#Installation and Setup
+1. Clone the Repository
+   **git clone https://github.com/yourusername/skyguard-ai.git
+cd skyguard-ai**
 
