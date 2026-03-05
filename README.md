@@ -22,11 +22,11 @@ Monitoring aerial images manually to identify military aircraft is time-consumin
 9. Detection Modes: Image, Video, and Live Webcam
 
 # Challenges Faced
-Dataset annotation conversion from CSV to YOLO format
-Handling train, validation, and test splits
-Managing GPU memory limitations during training
-Optimizing hyperparameters to improve model accuracy
-Fixing dataset path and file structure issues
+1. Dataset annotation conversion from CSV to YOLO format
+2. Handling train, validation, and test splits
+3. Managing GPU memory limitations during training
+4. Optimizing hyperparameters to improve model accuracy
+5. Fixing dataset path and file structure issues
 
 # Installation and Setup
 ### 1. Clone the Repository
@@ -48,12 +48,12 @@ python detect.py
 ## Usage
 Once executed, the program displays options to perform different aircraft detection tasks:
 
-Detect aircraft in an image
-Analyze aircraft in a video file
-Start real-time aircraft detection using webcam
-Launch the GUI for easy interaction
-View detection results with bounding boxes and predicted aircraft classes
-Exit the application
+1. Detect aircraft in an image
+2. Analyze aircraft in a video file
+3. Start real-time aircraft detection using webcam
+4. Launch the GUI for easy interaction
+5. View detection results with bounding boxes and predicted aircraft classes
+6. Exit the application
 
 Follow the on-screen instructions to select an option, provide the required input (image, video, or webcam), and view the detection results. The system processes the input and displays detected aircraft with labeled bounding boxes and confidence scores.
 
