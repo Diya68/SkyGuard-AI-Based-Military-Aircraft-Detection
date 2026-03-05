@@ -34,6 +34,97 @@ Fixing dataset path and file structure issues
 ```bash
 git clone https://github.com/yourusername/your-repository-name.git
 cd your-repository-name
+```
+### 2. Install Dependencies
 
+```bash
+pip install ultralytics opencv-python pillow
+```
+### 3. Run Detection
 
+```bash
+python detect.py
+```
+## Usage
+Once executed, the program displays options to perform different aircraft detection tasks:
 
+Detect aircraft in an image
+Analyze aircraft in a video file
+Start real-time aircraft detection using webcam
+Launch the GUI for easy interaction
+View detection results with bounding boxes and predicted aircraft classes
+Exit the application
+
+Follow the on-screen instructions to select an option, provide the required input (image, video, or webcam), and view the detection results. The system processes the input and displays detected aircraft with labeled bounding boxes and confidence scores.
+
+## Workflow
+```
++------------------------------+
+|     Dataset Collection       |
+| (Kaggle Aircraft Dataset)    |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|      Data Preprocessing      |
+| (CSV → YOLO Format, Split)   |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|    Dataset Configuration     |
+|        (aircraft.yaml)       |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|     Load Pretrained Model    |
+|           YOLOv8             |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|        Model Training        |
+|      (Transfer Learning)     |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|        Model Evaluation      |
+|   Precision | Recall | mAP   |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|        Save Best Model       |
+|           best.pt            |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|      Aircraft Detection      |
+|   Image / Video / Webcam     |
++--------------+---------------+
+               |
+               v
++------------------------------+
+|      Result Visualization    |
+| Bounding Boxes + Labels      |
++------------------------------+
+```
+## Advantages
+1. Enables automatic detection of military aircraft using deep learning.
+2. Supports real-time detection from images, videos, and webcam.
+3. Uses YOLOv8 model, which provides fast and accurate object detection.
+4. Reduces manual effort in monitoring aerial imagery.
+5. Provides visual results with bounding boxes and confidence scores.
+
+## Limitations
+1. Model accuracy depends on the quality and size of the dataset.
+2. May struggle with small or partially visible aircraft.
+3. Performance can decrease in low lighting or poor image quality.
+4. Requires GPU resources for efficient training and faster inference.
+
+## Conclusion
+
+This project demonstrates an AI-based approach for detecting military aircraft using the YOLOv8 object detection model. The system successfully processes images, videos, and live webcam input to identify aircraft with good accuracy. By automating aircraft detection, the project highlights the practical use of computer vision and deep learning in surveillance and defense-related applications.
