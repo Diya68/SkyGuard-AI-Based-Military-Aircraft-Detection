@@ -1,0 +1,18 @@
+# Core dependencies for Skyguard Aircraft Detection
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=9.0.0
+matplotlib>=3.5.0
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# Hybrid Model dependencies
+scikit-learn>=1.3.0  # For data preprocessing (scalers)
+
+# Optional but recommended
+tensorboard>=2.13.0  # For training visualization
+pandas>=2.0.0        # For data analysis
+seaborn>=0.12.0      # For plotting
