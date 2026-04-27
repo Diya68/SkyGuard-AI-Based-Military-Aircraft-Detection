@@ -8,6 +8,7 @@ SkyGuard AI is a deep learning–based system designed to detect and classify mi
 - In Stage 1, the YOLOv8 model is used to detect aircraft in real time, generating accurate bounding boxes and class labels for multiple aircraft types. This ensures fast and efficient identification even in complex visual environments.
 
 - In Stage 2, a Convolutional Neural Network (CNN) processes the cropped aircraft regions obtained from YOLOv8 detections to predict continuous attributes such as wing span, length, speed, altitude, and crew capacity. This additional layer of analysis provides deeper insights beyond basic classification.
+  
 The system incorporates a complete machine learning pipeline, including dataset preprocessing (annotation conversion to YOLO format, augmentation, normalization), model training, evaluation, and performance optimization. Transfer learning is utilized with a pretrained YOLOv8 model, trained on a military aircraft dataset sourced from Kaggle.
 A user-friendly Graphical User Interface (GUI) enables real-time monitoring through webcam streams, image uploads, and video inputs, allowing seamless interaction and visualization of detection results.
 Overall, SkyGuard AI demonstrates a practical and scalable application of computer vision and deep learning in defense, surveillance, and security domains, highlighting an end-to-end workflow from data preparation to deployment with enhanced predictive intelligence.
