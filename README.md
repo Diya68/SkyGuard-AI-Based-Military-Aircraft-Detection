@@ -18,10 +18,10 @@ Detecting and analyzing military aircraft from images, videos, and live streams 
 
 - Key Challenges:
 
--- High visual similarity between different aircraft types
--- Variations in viewpoint, scale, and orientation
--- Impact of environmental conditions like lighting, weather, and occlusion
--- Lack of systems that provide detailed attribute information (e.g., speed, wingspan, etc.)
+#- High visual similarity between different aircraft types
+#- Variations in viewpoint, scale, and orientation
+#- Impact of environmental conditions like lighting, weather, and occlusion
+#- Lack of systems that provide detailed attribute information (e.g., speed, wingspan, etc.)
 
 Therefore, there is a need for an intelligent and real-time solution that can both detect and analyze aircraft effectively. The proposed SkyGuard AI addresses this by using a hybrid architecture (YOLOv8 + CNN) for accurate detection and advanced attribute prediction.
 
