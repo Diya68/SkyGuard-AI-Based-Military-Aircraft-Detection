@@ -14,7 +14,16 @@ A user-friendly Graphical User Interface (GUI) enables real-time monitoring thro
 Overall, SkyGuard AI demonstrates a practical and scalable application of computer vision and deep learning in defense, surveillance, and security domains, highlighting an end-to-end workflow from data preparation to deployment with enhanced predictive intelligence.
 
 # Problem Statement 
-Monitoring aerial images manually to identify military aircraft is time-consuming, inefficient, and prone to human error, especially when large volumes of data must be analyzed. There is a need for an automated and reliable system that can accurately detect and classify aircraft in real time. This project aims to develop an AI-based solution using deep learning to improve detection accuracy and support surveillance and defense applications.
+Detecting and analyzing military aircraft from images, videos, and live streams is a challenging task due to complex real-world conditions and limitations of traditional systems. Manual monitoring is time-consuming and error-prone, while existing automated systems often focus only on detection without providing deeper insights.
+
+- Key Challenges:
+
+-- High visual similarity between different aircraft types
+-- Variations in viewpoint, scale, and orientation
+-- Impact of environmental conditions like lighting, weather, and occlusion
+-- Lack of systems that provide detailed attribute information (e.g., speed, wingspan, etc.)
+
+Therefore, there is a need for an intelligent and real-time solution that can both detect and analyze aircraft effectively. The proposed SkyGuard AI addresses this by using a hybrid architecture (YOLOv8 + CNN) for accurate detection and advanced attribute prediction.
 
 # Technical Details
 1. Language: Python
